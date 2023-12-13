@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Testing Suite,,,,2023-12-13 16:40:48,2023-12-13 16:40:56,7.627s,PASSED
+,,,,,,,
+Test Cases/REST API Test 1,,,,2023-12-13 16:40:49,2023-12-13 16:40:53,4.012s,PASSED
+"sendRequest(findTestObject(""API/REST/GetUsersList""))",,,,2023-12-13 16:40:49,2023-12-13 16:40:52,2.660s,PASSED
+"sendRequestAndVerify(findTestObject(""API/REST/GetUsersList""))",,,,2023-12-13 16:40:52,2023-12-13 16:40:53,0.750s,PASSED
+,,,,,,,
+Test Cases/SOAP API Test 1,,,,2023-12-13 16:40:53,2023-12-13 16:40:56,3.248s,PASSED
+"sendRequest(findTestObject(""API/SOAP/AddInteger""))",,,,2023-12-13 16:40:53,2023-12-13 16:40:54,1.071s,PASSED
+"sendRequestAndVerify(findTestObject(""API/SOAP/AddInteger""))",,,,2023-12-13 16:40:54,2023-12-13 16:40:56,1.635s,PASSED
